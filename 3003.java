@@ -18,6 +18,8 @@ public class Main{
 	
 	 for (int i = 0; i < array.length; i++) {
 		answer[i] = piece[i] - array[i];
+	//변수 answer 없이 array에 담아 array를 출력하여 변수를 줄일 수 있음.  array[i] = piece[i] - array[i]	 
+		 
 		System.out.println(answer[i]);
 	 } 
 	 
